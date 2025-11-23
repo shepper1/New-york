@@ -1,0 +1,180 @@
+{
+  "pays": "États-Unis",
+  "drapeau": "🇺🇸",
+  "symbole": "🗽",
+  "titre": "Feuille de Route New York - 7 Jours / 2800€",
+  "jours": [
+    {
+      "jour": 1,
+      "symbole": "🛬",
+      "titre": "Arrivée à Manhattan",
+      "legende": "Atterrissage dans la ville qui ne dort jamais. Après l'installation, première immersion dans la jungle de néons de Times Square pour un choc visuel inoubliable.",
+      "lieu": "Midtown Manhattan",
+      "activites": [
+        "🛬 Arrivée à l'aéroport (JFK) et transfert",
+        "🛏️ Installation à l'hôtel",
+        "✨ Découverte de Times Square by night"
+      ],
+      "illustration": "jour1.jpg",
+      "encarts": [
+        {
+          "symbole": "📝",
+          "titre": "ESTA Obligatoire",
+          "texte": "N'oubliez pas de faire votre demande d'autorisation de voyage ESTA en ligne au moins 72h avant le départ."
+        }
+      ]
+    },
+    {
+      "jour": 2,
+      "symbole": "🏙️",
+      "titre": "Au sommet de la Grosse Pomme",
+      "legende": "Prenez de la hauteur pour admirer la démesure de Manhattan avant de vous plonger dans l'effervescence de ses avenues les plus célèbres.",
+      "lieu": "Midtown Manhattan",
+      "activites": [
+        "🔝 Vue panoramique depuis le Top of the Rock",
+        "🚶‍♂️ Balade sur la 5ème Avenue, Grand Central et St. Patrick's Cathedral"
+      ],
+      "illustration": "jour2.jpg",
+      "encarts": [
+        {
+          "symbole": "🎟️",
+          "titre": "City Pass",
+          "texte": "Pensez à un pass touristique (CityPASS, Go City) pour économiser sur les entrées des attractions majeures."
+        }
+      ]
+    },
+    {
+      "jour": 3,
+      "symbole": "🕊️",
+      "titre": "Histoire et Liberté",
+      "legende": "Une journée poignante entre le symbole universel de la liberté et le lieu de mémoire du 11 septembre, au cœur du quartier financier.",
+      "lieu": "Lower Manhattan",
+      "activites": [
+        "⛴️ Ferry pour la Statue de la Liberté et Ellis Island",
+        "🙏 Visite du Mémorial & Musée du 11 Septembre"
+      ],
+      "illustration": "jour3.jpg",
+      "encarts": [
+        {
+          "symbole": "🕒",
+          "titre": "Réservez à l'avance",
+          "texte": "Les billets pour la Statue de la Liberté (surtout pour la couronne) et le musée du 11/09 doivent être réservés bien en avance."
+        }
+      ]
+    },
+    {
+      "jour": 4,
+      "symbole": "🌉",
+      "titre": "De Brooklyn à SoHo",
+      "legende": "Traversez l'emblématique pont de Brooklyn pour une vue iconique sur la skyline, puis explorez les quartiers branchés aux ambiances radicalement différentes.",
+      "lieu": "Brooklyn & Manhattan",
+      "activites": [
+        "🌉 Traversée à pied du Pont de Brooklyn",
+        "🎨 Exploration des quartiers de DUMBO, SoHo et Greenwich Village"
+      ],
+      "illustration": "jour4.jpg",
+      "encarts": [
+        {
+          "symbole": "📸",
+          "titre": "Spot photo",
+          "texte": "Pour la photo parfaite, rendez-vous sur Washington Street dans le quartier de DUMBO à Brooklyn."
+        }
+      ]
+    },
+    {
+      "jour": 5,
+      "symbole": "🌳",
+      "titre": "Oasis urbaine et culturelle",
+      "legende": "Une journée entre art et nature, en visitant l'un des plus grands musées du monde avant de vous ressourcer dans le poumon vert de Manhattan, Central Park.",
+      "lieu": "Upper East Side & Central Park",
+      "activites": [
+        "🏛️ Visite du Metropolitan Museum of Art (The MET)",
+        "🚲 Balade et détente à Central Park"
+      ],
+      "illustration": "jour5.jpg",
+      "encarts": [
+        {
+          "symbole": "💡",
+          "titre": "Bon plan",
+          "texte": "La location de vélos pour Central Park est souvent incluse dans les pass touristiques. Vérifiez vos options !"
+        }
+      ]
+    },
+    {
+      "jour": 6,
+      "symbole": "🎶",
+      "titre": "L'âme de Harlem",
+      "legende": "Imprégnez-vous de l'atmosphère unique de Harlem en assistant à une messe Gospel vibrante, une expérience culturelle et humaine forte.",
+      "lieu": "Harlem",
+      "activites": [
+        "⛪ Assister à une messe Gospel (idéalement le dimanche)",
+        "🍽️ Découverte du quartier et déjeuner Soul Food"
+      ],
+      "illustration": "jour6.jpg",
+      "encarts": [
+        {
+          "symbole": "ℹ️",
+          "titre": "Respect",
+          "texte": "Les messes Gospel sont de vraies cérémonies religieuses. Une tenue correcte est exigée et les photos sont souvent interdites."
+        }
+      ]
+    },
+    {
+      "jour": 7,
+      "symbole": "🛫",
+      "titre": "Derniers instants et départ",
+      "legende": "Profitez des dernières heures pour une balade sur une ancienne voie ferrée réhabilitée en parc suspendu avant de prendre le chemin du retour.",
+      "lieu": "Chelsea & Aéroport",
+      "activites": [
+        "🚶‍♀️ Promenade sur la High Line et visite du Chelsea Market",
+        "🛫 Transfert vers l'aéroport pour le vol retour"
+      ],
+      "illustration": "jour7.jpg",
+      "encarts": [
+        {
+          "symbole": "🛅",
+          "titre": "Consigne à bagages",
+          "texte": "Utilisez des services de consigne à bagages via des applications pour profiter librement de votre dernière journée."
+        }
+      ]
+    }
+  ],
+  "infos_pratiques": [
+    {
+      "titre": "Demande d'autorisation de voyage ESTA obligatoire à faire en ligne au moins 72h avant le départ.",
+      "symbole": "📝"
+    },
+    {
+      "titre": "Cartes de crédit acceptées partout. Prévoir des dollars pour les pourboires (tips, 18-20%) et petits achats.",
+      "symbole": "💳"
+    },
+    {
+      "titre": "Acheter une MetroCard est le moyen le plus simple et économique pour utiliser le métro et les bus.",
+      "symbole": "🚇"
+    },
+    {
+      "titre": "Adaptateur pour prises électriques de type A/B nécessaire. Voltage 120V.",
+      "symbole": "🔌"
+    }
+  ],
+  "liens_utiles": [
+    {
+      "legende": "Guide officiel de la ville",
+      "titre": "NYC Go",
+      "url": "https://www.nycgo.com/",
+      "symbole": "📘"
+    },
+    {
+      "legende": "Transports en commun",
+      "titre": "MTA",
+      "url": "https://new.mta.info/",
+      "symbole": "🚆"
+    },
+    {
+      "legende": "Demande d'autorisation ESTA",
+      "titre": "Site officiel ESTA",
+      "url": "https://esta.cbp.dhs.gov/",
+      "symbole": "🛂"
+    }
+  ]
+}
