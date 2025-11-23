@@ -1,0 +1,181 @@
+{
+  "pays": "États-Unis",
+  "drapeau": "🇺🇸",
+  "symbole": "🗽",
+  "titre": "Une semaine à New York : L'essentiel pour 2800€",
+  "jours": [
+    {
+      "jour": 1,
+      "symbole": "🛬",
+      "titre": "Arrivée et immersion lumineuse",
+      "legende": "Après votre arrivée, plongez directement dans l'énergie de Manhattan avec la découverte de Times Square, le carrefour vibrant et illuminé du monde.",
+      "lieu": "Manhattan",
+      "activites": [
+        "🛬 Arrivée à l'aéroport (JFK)",
+        "🚖 Transfert et installation à l'hôtel",
+        "🌃 Découverte de Times Square de nuit"
+      ],
+      "illustration": "jour1.jpg",
+      "encarts": [
+        {
+          "symbole": "ℹ️",
+          "titre": "À savoir",
+          "texte": "Le trajet de l'aéroport JFK à Manhattan peut prendre plus d'une heure. L'AirTrain puis le métro est une option efficace et économique."
+        }
+      ]
+    },
+    {
+      "jour": 2,
+      "symbole": "🏙️",
+      "titre": "Au sommet de Midtown",
+      "legende": "Une journée consacrée aux icônes de Midtown, en prenant de la hauteur à l'Empire State Building avant de visiter la majestueuse gare de Grand Central.",
+      "lieu": "Midtown, Manhattan",
+      "activites": [
+        "🌇 Vue panoramique depuis l'Empire State Building",
+        "📚 Visite de la New York Public Library et Bryant Park",
+        "🚂 Exploration de Grand Central Terminal"
+      ],
+      "illustration": "jour2.jpg",
+      "encarts": [
+        {
+          "symbole": "🎟️",
+          "titre": "Bon plan",
+          "texte": "Achetez vos billets pour l'Empire State Building en ligne pour éviter une partie de la file d'attente. Y aller tôt le matin est idéal."
+        }
+      ]
+    },
+    {
+      "jour": 3,
+      "symbole": "🗽",
+      "titre": "Histoire et mémoire à Lower Manhattan",
+      "legende": "Embarquez pour l'île de la Liberté pour saluer la statue emblématique, puis plongez dans l'histoire poignante de la ville au Mémorial du 11 Septembre.",
+      "lieu": "Lower Manhattan",
+      "activites": [
+        "⛴️ Ferry pour la Statue de la Liberté et Ellis Island",
+        "🏛️ Recueillement au Mémorial & Musée du 11 Septembre"
+      ],
+      "illustration": "jour3.jpg",
+      "encarts": [
+        {
+          "symbole": "🕒",
+          "titre": "Gestion du temps",
+          "texte": "La visite de la Statue de la Liberté et d'Ellis Island peut prendre une demi-journée. Prévoyez de partir tôt le matin."
+        }
+      ]
+    },
+    {
+      "jour": 4,
+      "symbole": "🖼️",
+      "titre": "Art moderne et poumon vert",
+      "legende": "Une journée entre culture et nature, en commençant par les chefs-d'œuvre du MoMA pour finir par une balade relaxante dans l'immensité de Central Park.",
+      "lieu": "Midtown & Central Park, Manhattan",
+      "activites": [
+        "🎨 Découverte du Museum of Modern Art (MoMA)",
+        "🌳 Promenade et détente à Central Park"
+      ],
+      "illustration": "jour4.jpg",
+      "encarts": [
+        {
+          "symbole": "🚲",
+          "titre": "Suggestion",
+          "texte": "Louer un vélo est un excellent moyen d'explorer une plus grande partie de Central Park en moins de temps."
+        }
+      ]
+    },
+    {
+      "jour": 5,
+      "symbole": "🌉",
+      "titre": "La traversée vers Brooklyn",
+      "legende": "Vivez une expérience new-yorkaise incontournable en traversant le pont de Brooklyn à pied, et profitez des vues spectaculaires sur la skyline depuis le quartier de DUMBO.",
+      "lieu": "Brooklyn",
+      "activites": [
+        "🚶‍♂️ Traversée du pont de Brooklyn (de Brooklyn vers Manhattan)",
+        "📸 Exploration du quartier de DUMBO et photos de la skyline"
+      ],
+      "illustration": "jour5.jpg",
+      "encarts": [
+        {
+          "symbole": "🍕",
+          "titre": "Pause gourmande",
+          "texte": "Le quartier de DUMBO est réputé pour ses pizzerias légendaires comme Grimaldi's ou Juliana's. Attention à l'attente !"
+        }
+      ]
+    },
+    {
+      "jour": 6,
+      "symbole": "🏘️",
+      "titre": "Ambiance de villages",
+      "legende": "Perdez-vous dans l'atmosphère unique des quartiers de Greenwich Village et SoHo, entre rues charmantes, boutiques branchées et galeries d'art.",
+      "lieu": "Manhattan",
+      "activites": [
+        "🌳 Flânerie à Washington Square Park et Greenwich Village",
+        "🛍️ Shopping et balade dans SoHo, Little Italy & Chinatown"
+      ],
+      "illustration": "jour6.jpg",
+      "encarts": [
+        {
+          "symbole": "👟",
+          "titre": "Confort avant tout",
+          "texte": "Cette journée est basée sur la marche. Portez des chaussures très confortables pour profiter pleinement de l'exploration des quartiers."
+        }
+      ]
+    },
+    {
+      "jour": 7,
+      "symbole": "🛫",
+      "titre": "Derniers souvenirs et départ",
+      "legende": "Profitez d'une dernière matinée pour un peu de shopping de dernière minute ou pour revoir un lieu qui vous a plu, avant de prendre le chemin de l'aéroport.",
+      "lieu": "Manhattan",
+      "activites": [
+        "🎁 Shopping de dernière minute",
+        "✈️ Départ depuis l'aéroport (JFK)"
+      ],
+      "illustration": "jour7.jpg",
+      "encarts": [
+        {
+          "symbole": "🛅",
+          "titre": "Bagages",
+          "texte": "La plupart des hôtels proposent une consigne à bagages pour que vous puissiez profiter de votre dernière journée les mains libres."
+        }
+      ]
+    }
+  ],
+  "infos_pratiques": [
+    {
+      "titre": "L'autorisation de voyage ESTA est obligatoire et doit être demandée en ligne avant le départ.",
+      "symbole": "📄"
+    },
+    {
+      "titre": "Les pourboires ('tips') sont une institution (environ 18-20% au restaurant et pour les services).",
+      "symbole": "💵"
+    },
+    {
+      "titre": "La MetroCard ou le système OMNY (paiement sans contact) est indispensable pour utiliser le métro, ouvert 24/7.",
+      "symbole": "🚇"
+    },
+    {
+      "titre": "Les prises électriques sont de type A/B (110V). Un adaptateur est nécessaire pour les appareils européens.",
+      "symbole": "🔌"
+    }
+  ],
+  "liens_utiles": [
+    {
+      "legende": "Site officiel du tourisme",
+      "titre": "NYC Tourism + Conventions",
+      "url": "https://www.nyctourism.com/",
+      "symbole": "📘"
+    },
+    {
+      "legende": "Plan et infos du métro",
+      "titre": "MTA (Metropolitan Transportation Authority)",
+      "url": "https://new.mta.info/",
+      "symbole": "🗺️"
+    },
+    {
+      "legende": "Demande d'autorisation de voyage",
+      "titre": "Site officiel ESTA",
+      "url": "https://esta.cbp.dhs.gov/",
+      "symbole": "✍️"
+    }
+  ]
+}
