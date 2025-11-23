@@ -1,0 +1,344 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Une semaine à New York : L'essentiel pour 2800€ États-Unis </title>
+  <link rel="icon" type="image/png" href="favicon.png" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Inter', sans-serif; line-height: 1.6; background: linear-gradient(to bottom, #f3f4f6, #e5e7eb); }
+    .day-container { border-bottom: 1px solid #e5e7eb; padding-bottom: 2rem; margin-bottom: 4rem; }
+    .day-container:last-child { border-bottom: none; margin-bottom: 0; }
+    img { width: 100%; height: auto; border-radius: 0.75rem; box-shadow: 0 10px 14px rgba(0, 0, 0, 0.2); object-fit: cover; aspect-ratio: 3 / 2; transition: transform 0.4s ease; border: 2px solid rgba(255, 255, 255, 0.7); }
+    img:hover { transform: scale(1.07); }
+    ul { list-style: none; padding-left: 0; }
+    li { margin-bottom: 0.75rem; display: flex; align-items: flex-start; }
+    li span:first-child { margin-right: 0.75rem; flex-shrink: 0; font-size: 1.2em; width: 1.5em; text-align: center; }
+    h2 { font-size: 1.75rem; margin-bottom: 1rem; font-weight: 700; }
+    h3 { font-size: 1.1rem; margin-bottom: 0.75rem; }
+    .info-box h3 { font-size: 1.1rem; display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.75rem; }
+    .info-box h3:has(> .theme-gourmande) { color: #b91c1c; }
+    .info-box h3:has(> .theme-culture) { color: #2563eb; }
+    .info-box h3:has(> .theme-shopping) { color: #db2777; }
+    .info-box h3:has(> .theme-infos) { color: #4f46e5; }
+    .info-box h3:has(> .theme-savoir) { color: #dc2626; }
+    .info-box { background-color: #f9fafb; border-left: 4px solid #4f46e5; padding: 1rem; margin-top: 1.5rem; border-radius: 0.375rem; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); }
+    
+    @media (min-width: 768px) {
+      .alt-layout { display: flex; align-items: flex-start; gap: 2rem; }
+      .alt-layout:nth-of-type(even) .text-section { order: 2; }
+      .alt-layout:nth-of-type(even) .image-section { order: 1; }
+      .text-section { width: 66.6667%; }
+      .image-section { width: 33.3333%; }
+    }
+    @media (max-width: 768px) {
+      img { aspect-ratio: auto; height: auto; }
+      .day-container { margin-bottom: 2rem; }
+      .alt-layout { display: flex; flex-direction: column; }
+      .alt-layout .image-section { order: -1; }
+      .image-section { display: flex; justify-content: center; }
+      .image-section img { max-width: 90%; margin: 0 auto; pointer-events: none; background-color: white; padding: 0.5rem; border-radius: 1rem; box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); }
+    }
+    nav ul li a { font-weight: 600; padding: 0.25rem 0.5rem; display: inline-block; border-left: 4px solid transparent; transition: all 0.3s ease; border-radius: 0.25rem; }
+    nav ul li a:hover { color: #4338ca; border-left-color: #4338ca; background-color: #eef2ff; }
+    
+    @media print {
+      body { background: white; color: black; font-size: 12px; padding: 0; }
+      .day-container { page-break-inside: avoid; margin-bottom: 2rem; }
+      img { max-height: 250px; object-fit: contain; }
+      .info-box { box-shadow: none; background: white; }
+      .image-section, .text-section { width: 100% !important; padding: 0 !important; }
+      .alt-layout { display: block !important; }
+    }
+    .floating-top-button { position: fixed; bottom: 1.5rem; right: 1rem; background-color: #4f46e5; color: white; padding: 0.3rem 0.5rem; border-radius: 9999px; box-shadow: 0 4px 6px rgba(0,0,0,0.15); opacity: 0; visibility: hidden; transition: all 0.4s ease; }
+    .floating-top-button.visible { opacity: 0.8; visibility: visible; }
+    .floating-top-button svg { width: 1rem; height: 1rem; }
+  </style>
+</head>
+<body class="p-4 md:p-8 text-base leading-relaxed">
+  <div id="top" class="max-w-5xl mx-auto bg-white p-6 md:p-10 rounded-xl shadow-xl w-full overflow-x-hidden">
+  <h1 class="text-4xl font-bold text-center mb-8 text-gray-900">🇺🇸 Une semaine à New York : L'essentiel pour 2800€ - États-Unis  🗽</h1>
+
+  <nav class="mb-12 p-6 rounded-lg shadow-md bg-gradient-to-r from-gray-50 to-gray-100 border border-gray-200">
+    <h2 class="text-xl font-semibold text-gray-800 mb-4">🧭 Sommaire</h2>
+    <ul class="space-y-2 text-indigo-700">
+      
+      <li><a href="#jour-1" class="hover:underline">🛬 Jour 1 – Arrivée et immersion lumineuse</a></li>
+      
+      <li><a href="#jour-2" class="hover:underline">🏙️ Jour 2 – Au sommet de Midtown</a></li>
+      
+      <li><a href="#jour-3" class="hover:underline">🗽 Jour 3 – Histoire et mémoire à Lower Manhattan</a></li>
+      
+      <li><a href="#jour-4" class="hover:underline">🖼️ Jour 4 – Art moderne et poumon vert</a></li>
+      
+      <li><a href="#jour-5" class="hover:underline">🌉 Jour 5 – La traversée vers Brooklyn</a></li>
+      
+      <li><a href="#jour-6" class="hover:underline">🏘️ Jour 6 – Ambiance de villages</a></li>
+      
+      <li><a href="#jour-7" class="hover:underline">🛫 Jour 7 – Derniers souvenirs et départ</a></li>
+      
+      <li><a href="#infos-pratiques" class="hover:underline">🧳 Infos Pratiques</a></li>
+      <li><a href="#liens-utiles" class="hover:underline">🔗 Liens Utiles</a></li>
+    </ul>
+  </nav>
+
+  
+  <div id="jour-1" class="day-container md:flex md:items-start alt-layout">
+    <div class="md:w-2/3 text-section">
+      <h2 class="text-2xl font-semibold text-indigo-700">Jour 1 – Arrivée et immersion lumineuse 🛬</h2>
+      <p class="text-gray-700 italic mt-4">Après votre arrivée, plongez directement dans l'énergie de Manhattan avec la découverte de Times Square, le carrefour vibrant et illuminé du monde.</p>
+      
+        <div class="flex items-start gap-2 mt-4">
+          <p>🛬 Arrivée à l'aéroport (JFK)</p>
+        </div>
+      
+        <div class="flex items-start gap-2 mt-4">
+          <p>🚖 Transfert et installation à l'hôtel</p>
+        </div>
+      
+        <div class="flex items-start gap-2 mt-4">
+          <p>🌃 Découverte de Times Square de nuit</p>
+        </div>
+      
+
+      
+      <div class="info-box mt-4">
+        <h3 class="font-semibold mb-2"><span class="theme-gourmande">ℹ️ À savoir</span></h3>
+        <p>Le trajet de l'aéroport JFK à Manhattan peut prendre plus d'une heure. L'AirTrain puis le métro est une option efficace et économique.</p>
+      </div>
+        
+        
+      </div>
+      <div class="md:w-1/2 image-section">
+        <img src="https://raw.githubusercontent.com/shepper1/New-york/main/jour1.jpg" alt="Jour 1">
+      </div>
+    </div>
+    
+  <div id="jour-2" class="day-container md:flex md:items-start alt-layout">
+    <div class="md:w-2/3 text-section">
+      <h2 class="text-2xl font-semibold text-indigo-700">Jour 2 – Au sommet de Midtown 🏙️</h2>
+      <p class="text-gray-700 italic mt-4">Une journée consacrée aux icônes de Midtown, en prenant de la hauteur à l'Empire State Building avant de visiter la majestueuse gare de Grand Central.</p>
+      
+        <div class="flex items-start gap-2 mt-4">
+          <p>🌇 Vue panoramique depuis l'Empire State Building</p>
+        </div>
+      
+        <div class="flex items-start gap-2 mt-4">
+          <p>📚 Visite de la New York Public Library et Bryant Park</p>
+        </div>
+      
+        <div class="flex items-start gap-2 mt-4">
+          <p>🚂 Exploration de Grand Central Terminal</p>
+        </div>
+      
+
+      
+      <div class="info-box mt-4">
+        <h3 class="font-semibold mb-2"><span class="theme-gourmande">🎟️ Bon plan</span></h3>
+        <p>Achetez vos billets pour l'Empire State Building en ligne pour éviter une partie de la file d'attente. Y aller tôt le matin est idéal.</p>
+      </div>
+        
+        
+      </div>
+      <div class="md:w-1/2 image-section">
+        <img src="https://raw.githubusercontent.com/shepper1/New-york/main/jour2.jpg" alt="Jour 2">
+      </div>
+    </div>
+    
+  <div id="jour-3" class="day-container md:flex md:items-start alt-layout">
+    <div class="md:w-2/3 text-section">
+      <h2 class="text-2xl font-semibold text-indigo-700">Jour 3 – Histoire et mémoire à Lower Manhattan 🗽</h2>
+      <p class="text-gray-700 italic mt-4">Embarquez pour l'île de la Liberté pour saluer la statue emblématique, puis plongez dans l'histoire poignante de la ville au Mémorial du 11 Septembre.</p>
+      
+        <div class="flex items-start gap-2 mt-4">
+          <p>⛴️ Ferry pour la Statue de la Liberté et Ellis Island</p>
+        </div>
+      
+        <div class="flex items-start gap-2 mt-4">
+          <p>🏛️ Recueillement au Mémorial & Musée du 11 Septembre</p>
+        </div>
+      
+
+      
+      <div class="info-box mt-4">
+        <h3 class="font-semibold mb-2"><span class="theme-gourmande">🕒 Gestion du temps</span></h3>
+        <p>La visite de la Statue de la Liberté et d'Ellis Island peut prendre une demi-journée. Prévoyez de partir tôt le matin.</p>
+      </div>
+        
+        
+      </div>
+      <div class="md:w-1/2 image-section">
+        <img src="https://raw.githubusercontent.com/shepper1/New-york/main/jour3.jpg" alt="Jour 3">
+      </div>
+    </div>
+    
+  <div id="jour-4" class="day-container md:flex md:items-start alt-layout">
+    <div class="md:w-2/3 text-section">
+      <h2 class="text-2xl font-semibold text-indigo-700">Jour 4 – Art moderne et poumon vert 🖼️</h2>
+      <p class="text-gray-700 italic mt-4">Une journée entre culture et nature, en commençant par les chefs-d'œuvre du MoMA pour finir par une balade relaxante dans l'immensité de Central Park.</p>
+      
+        <div class="flex items-start gap-2 mt-4">
+          <p>🎨 Découverte du Museum of Modern Art (MoMA)</p>
+        </div>
+      
+        <div class="flex items-start gap-2 mt-4">
+          <p>🌳 Promenade et détente à Central Park</p>
+        </div>
+      
+
+      
+      <div class="info-box mt-4">
+        <h3 class="font-semibold mb-2"><span class="theme-gourmande">🚲 Suggestion</span></h3>
+        <p>Louer un vélo est un excellent moyen d'explorer une plus grande partie de Central Park en moins de temps.</p>
+      </div>
+        
+        
+      </div>
+      <div class="md:w-1/2 image-section">
+        <img src="https://raw.githubusercontent.com/shepper1/New-york/main/jour4.jpg" alt="Jour 4">
+      </div>
+    </div>
+    
+  <div id="jour-5" class="day-container md:flex md:items-start alt-layout">
+    <div class="md:w-2/3 text-section">
+      <h2 class="text-2xl font-semibold text-indigo-700">Jour 5 – La traversée vers Brooklyn 🌉</h2>
+      <p class="text-gray-700 italic mt-4">Vivez une expérience new-yorkaise incontournable en traversant le pont de Brooklyn à pied, et profitez des vues spectaculaires sur la skyline depuis le quartier de DUMBO.</p>
+      
+        <div class="flex items-start gap-2 mt-4">
+          <p>🚶‍♂️ Traversée du pont de Brooklyn (de Brooklyn vers Manhattan)</p>
+        </div>
+      
+        <div class="flex items-start gap-2 mt-4">
+          <p>📸 Exploration du quartier de DUMBO et photos de la skyline</p>
+        </div>
+      
+
+      
+      <div class="info-box mt-4">
+        <h3 class="font-semibold mb-2"><span class="theme-gourmande">🍕 Pause gourmande</span></h3>
+        <p>Le quartier de DUMBO est réputé pour ses pizzerias légendaires comme Grimaldi's ou Juliana's. Attention à l'attente !</p>
+      </div>
+        
+        
+      </div>
+      <div class="md:w-1/2 image-section">
+        <img src="https://raw.githubusercontent.com/shepper1/New-york/main/jour5.jpg" alt="Jour 5">
+      </div>
+    </div>
+    
+  <div id="jour-6" class="day-container md:flex md:items-start alt-layout">
+    <div class="md:w-2/3 text-section">
+      <h2 class="text-2xl font-semibold text-indigo-700">Jour 6 – Ambiance de villages 🏘️</h2>
+      <p class="text-gray-700 italic mt-4">Perdez-vous dans l'atmosphère unique des quartiers de Greenwich Village et SoHo, entre rues charmantes, boutiques branchées et galeries d'art.</p>
+      
+        <div class="flex items-start gap-2 mt-4">
+          <p>🌳 Flânerie à Washington Square Park et Greenwich Village</p>
+        </div>
+      
+        <div class="flex items-start gap-2 mt-4">
+          <p>🛍️ Shopping et balade dans SoHo, Little Italy & Chinatown</p>
+        </div>
+      
+
+      
+      <div class="info-box mt-4">
+        <h3 class="font-semibold mb-2"><span class="theme-gourmande">👟 Confort avant tout</span></h3>
+        <p>Cette journée est basée sur la marche. Portez des chaussures très confortables pour profiter pleinement de l'exploration des quartiers.</p>
+      </div>
+        
+        
+      </div>
+      <div class="md:w-1/2 image-section">
+        <img src="https://raw.githubusercontent.com/shepper1/New-york/main/jour6.jpg" alt="Jour 6">
+      </div>
+    </div>
+    
+  <div id="jour-7" class="day-container md:flex md:items-start alt-layout">
+    <div class="md:w-2/3 text-section">
+      <h2 class="text-2xl font-semibold text-indigo-700">Jour 7 – Derniers souvenirs et départ 🛫</h2>
+      <p class="text-gray-700 italic mt-4">Profitez d'une dernière matinée pour un peu de shopping de dernière minute ou pour revoir un lieu qui vous a plu, avant de prendre le chemin de l'aéroport.</p>
+      
+        <div class="flex items-start gap-2 mt-4">
+          <p>🎁 Shopping de dernière minute</p>
+        </div>
+      
+        <div class="flex items-start gap-2 mt-4">
+          <p>✈️ Départ depuis l'aéroport (JFK)</p>
+        </div>
+      
+
+      
+      <div class="info-box mt-4">
+        <h3 class="font-semibold mb-2"><span class="theme-gourmande">🛅 Bagages</span></h3>
+        <p>La plupart des hôtels proposent une consigne à bagages pour que vous puissiez profiter de votre dernière journée les mains libres.</p>
+      </div>
+        
+        
+      </div>
+      <div class="md:w-1/2 image-section">
+        <img src="https://raw.githubusercontent.com/shepper1/New-york/main/jour7.jpg" alt="Jour 7">
+      </div>
+    </div>
+    
+
+    <section class="mb-12">
+      <div class="info-box">
+        <div class="space-y-6">
+          <h2 id="infos-pratiques" class="text-xl font-semibold mb-4"><span class="theme-infos">🧳 Infos Pratiques</span></h2>
+          <ul>
+            
+            <li><span>📄</span>L'autorisation de voyage ESTA est obligatoire et doit être demandée en ligne avant le départ.</li>
+            
+            <li><span>💵</span>Les pourboires ('tips') sont une institution (environ 18-20% au restaurant et pour les services).</li>
+            
+            <li><span>🚇</span>La MetroCard ou le système OMNY (paiement sans contact) est indispensable pour utiliser le métro, ouvert 24/7.</li>
+            
+            <li><span>🔌</span>Les prises électriques sont de type A/B (110V). Un adaptateur est nécessaire pour les appareils européens.</li>
+            
+          </ul>
+
+          <h2 id="liens-utiles" class="text-xl font-semibold text-purple-700 mt-6 mb-4">🔗 Liens Utiles</h2>
+          <ul>
+            
+            <li><span>📘</span> <a href="https://www.nyctourism.com/" target="_blank" class="text-indigo-600 underline">NYC Tourism + Conventions</a>&nbsp; – Site officiel du tourisme</li>
+            
+            <li><span>🗺️</span> <a href="https://new.mta.info/" target="_blank" class="text-indigo-600 underline">MTA (Metropolitan Transportation Authority)</a>&nbsp; – Plan et infos du métro</li>
+            
+            <li><span>✍️</span> <a href="https://esta.cbp.dhs.gov/" target="_blank" class="text-indigo-600 underline">Site officiel ESTA</a>&nbsp; – Demande d'autorisation de voyage</li>
+            
+          </ul>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+  <div id="backToTopWrapper" style="display: none;">
+    <a href="#top" class="floating-top-button" aria-label="Retour en haut">
+      <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M5 10l7-7m0 0l7 7m-7-7v18" />
+      </svg>
+    </a>
+  </div>
+  
+  <script>
+    document.addEventListener("scroll", function () {
+      const trigger = document.querySelector("nav");
+      const buttonWrapper = document.getElementById("backToTopWrapper");
+      if (!trigger || !buttonWrapper) return;
+      const btn = buttonWrapper.firstElementChild;
+      if (trigger.getBoundingClientRect().bottom < 0) {
+        buttonWrapper.style.display = "block";
+        setTimeout(() => btn.classList.add("visible"), 10);
+      } else {
+        btn.classList.remove("visible");
+        setTimeout(() => buttonWrapper.style.display = "none", 400);
+      }
+    });
+  </script>
+</body>
+</html>
